@@ -1,0 +1,33 @@
+
+ [
+     {
+         "id": "01",
+         "nombre": "Alejandro Salas",
+         "comentario": "Me encantó el café Americano.",
+         "puntaje": "10"
+     },
+     {
+         "id": "02",
+         "nombre": "Adolfo Arias",
+         "comentario": "Hermoso lugar para reunirse con amigos.",
+         "puntaje": "9"
+     },
+     {  
+         "id": "03",
+         "nombre": "Ian Orellana",
+         "comentario": "Excelente variedad de café.",
+         "puntaje": "10"
+     },
+     {
+         "id": "04",
+         "nombre": "Fernanda Molina",
+         "comentario": "Primera vez que visito el lugar, definitivamente volveré.",
+         "puntaje": "10"
+     },
+     {
+         "id": "05",
+         "nombre": "Eva Barrios",
+         "comentario": "El café Colombiano es maravilloso.",
+         "puntaje": "10"
+     }
+ ]

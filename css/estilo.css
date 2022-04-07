@@ -1,0 +1,148 @@
+*{
+   
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c34;
+    background-image: url(../images/fondo2.jpg);
+    color: #fff;
+    background-position: right;
+}
+
+
+.header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #fff;
+}
+
+
+.cart-lists {
+    align-items: center;
+    margin-left: 380px;
+    
+}
+
+.card {
+    border: 2px solid #b49671;
+    padding: 8px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: #27353a;
+    margin: 20px;
+    margin-right: 16%;
+    
+}
+.card-title {
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: start;
+}
+
+input {
+    border: 1px solid #3333;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+img {
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 8px;
+    padding-bottom: 2px;
+}
+
+.cart {
+    background-color: #b49671;
+    color: white; 
+    font-size: 12px;
+    font-weight: 900;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #282c34;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+#newSub {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+
+
+/* SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+.modal-body {
+    color: #282c34;
+}
+
+.modal-title {
+    color: #282c34;
+}
+
+/* Listado de usuarios */
+
+th {
+    color: #fff;
+}
+
+td {
+    color: #fff;
+}
